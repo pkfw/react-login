@@ -3,7 +3,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Header from './layout/Header';
-import Router from './router/Router';
+import Main from './layout/Main';
 import Footer from './layout/Footer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Router />
+        <Main />
         <Footer />
       </BrowserRouter>
     </div>

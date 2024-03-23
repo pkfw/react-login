@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+html, body, .App {
+  height: 100%;
+}
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+  overflow-y: auto;
+
+  background: #23242a;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
